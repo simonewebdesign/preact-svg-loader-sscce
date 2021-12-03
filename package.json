@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "webpack-cli": "^4.9.1"
+  },
+  "scripts": {
+    "build": "webpack"
   }
 }
