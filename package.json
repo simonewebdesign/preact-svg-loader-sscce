@@ -8,5 +8,8 @@
     "preact": "^10.6.2",
     "preact-svg-loader": "^0.2.1",
     "webpack": "^5.64.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.1"
   }
 }
