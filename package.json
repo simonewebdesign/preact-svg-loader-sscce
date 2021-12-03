@@ -8,6 +8,7 @@
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
     "babel-preset-preact": "^2.0.0",
     "preact": "^10.6.2",
     "preact-svg-loader": "^0.2.1",
