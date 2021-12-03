@@ -1,7 +1,11 @@
-function component() {
-  const element = document.createElement('div')
-  element.innerHTML = 'hello world'
-  return element
-}
+import { h, render } from 'preact'
+import Svg1 from '../evidenced.svg'
+import Svg2 from '../verified.svg'
 
-document.body.appendChild(component())
+render((
+  <div>
+    <h1>Hello, world! Svg from JS below</h1>
+    <Svg1 />
+    <Svg2 />
+  </div>
+), document.body)
