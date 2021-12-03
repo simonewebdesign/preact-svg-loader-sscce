@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "chrome": "95",
+        },
+        "useBuiltIns": "usage",
+        "corejs": "3.6.5"
+      }
+    ],
+    "preact"
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-react-jsx", { "pragma": "h" }]
+  ]
+}
