@@ -3,5 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Simone <hello@simonewebdesign.it>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^10.6.2",
+    "preact-svg-loader": "^0.2.1",
+    "webpack": "^5.64.4"
+  }
 }
