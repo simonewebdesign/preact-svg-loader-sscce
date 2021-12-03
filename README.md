@@ -11,6 +11,7 @@ If you're using macOS, just copy and paste this in your shell to get started in 
 
 ```
 git clone https://github.com/simonewebdesign/preact-svg-loader-sscce.git
+cd preact-svg-loader-sscce
 yarn install
 yarn build
 open dist/index.html
