@@ -1,11 +1,13 @@
 import { h, render } from 'preact'
-import Svg1 from '../evidenced.svg'
-import Svg2 from '../verified.svg'
+import Missing from '../missing.svg'
+import Unknown from '../unknown.svg'
+import Valid from '../valid.svg'
 
 render((
   <div>
-    <h1>Hello, world! Svg from JS below</h1>
-    <Svg1 />
-    <Svg2 />
+    <h2>svg from JS below</h2>
+    valid <Valid /> {/* This one won't render */}
+    unknown <Unknown />
+    missing <Missing />
   </div>
 ), document.body)
